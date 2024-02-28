@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QWI Table</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightskyblue;
+            font-family: 'Trebuchet MS';
+            padding: 50px;
+        }
+
+        .table-container {
+            padding: 2% 5%;
+            margin: 15px;
+        }
+
+        .heading {
+            font-size: 40px;
+            text-align: center;
+            color: #f1f1f1;
+            margin-bottom: 70px;
+        }
+
+        .table {
+            width: 100%;
+        }
+
+        .table thead {
+            background-color: blue;
+        }
+
+        .table thead tr th {
+            font-size: 20px;
+            font-weight: 200;
+            letter-spacing: 2px;
+            color: #ffffff;
+            opacity: 0.5;
+            padding: 12px;
+            vertical-align: top;
+            border: 1px solid #dee2e685;
+        }
+
+        .table tbody tr td {
+            font-size: 14px;
+            letter-spacing: 2px;
+            font-weight: normal;
+            color: #f1f1f1;
+            background-color: #3c3f44;
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #dee2e685;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h1 class="heading">Data</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Start Data</th>
+                    <th>Employee Name</th>
+                    <th>E-Mail</th>
+                    <th>Mobile No.</th>
+                    <th>Country</th>
+                    <th>State</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Start Date">2 Jan 2021</td>
+                    <td data-label="Employee Name">Ram</td>
+                    <td data-label="E-Mail">ram123@quickway.com</td>
+                    <td data-label="Mobile no.">9876567890</td>
+                    <td data-label="Country">India</td>
+                    <td data-label="State">Uttar Pradesh</td>
+                </tr>
+
+                <tr>
+                    <td data-label="Start Date">21 May 2022</td>
+                    <td data-label="Employee Name">Akash</td>
+                    <td data-label="E-Mail">akash345@quickway.com</td>
+                    <td data-label="Mobile no.">9463015342</td>
+                    <td data-label="Country">India</td>
+                    <td data-label="State">Rajasthan</td>
+                </tr>
+
+                <tr>
+                    <td data-label="Start Date">7 Oct 2020</td>
+                    <td data-label="Employee Name">Abhay</td>
+                    <td data-label="E-Mail">abhay.m123@quickway.com</td>
+                    <td data-label="Mobile no.">9333367890</td>
+                    <td data-label="Country">India</td>
+                    <td data-label="State">Assam</td>
+                </tr>
+
+                <tr>
+                    <td data-label="Start Date">22 June 2018</td>
+                    <td data-label="Employee Name">Akshay</td>
+                    <td data-label="E-Mail">aka45@quickway.com.com</td>
+                    <td data-label="Mobile no.">8764902674</td>
+                    <td data-label="Country">India</td>
+                    <td data-label="State">Bihar</td>
+                </tr>
+
+                <tr>
+                    <td data-label="Start Date">1 Jan 2019</td>
+                    <td data-label="Employee Name">Raghav</td>
+                    <td data-label="E-Mail">raghavv3@quickway.com.com</td>
+                    <td data-label="Mobile no.">9234712490</td>
+                    <td data-label="Country">India</td>
+                    <td data-label="State">Madhya Pradesh</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    border: 4px solid black;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.big-box {
+    border: 4px solid red;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+@keyframes animate {
+    from {
+        transform: rotate(0deg);
+        
+    }
+
+    to {
+        transform: rotate(10020deg);
+    }
+}
+
+.big-box:hover {
+    background-color: aqua;
+    animation-name: animate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    border-radius: 1rem;
+    border-color: blueviolet;
+
+}
+
